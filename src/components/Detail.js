@@ -115,7 +115,6 @@ const AddButton = styled.button`
     border: 2px solid white;
     background: rgba(0, 0, 0, 0.6);
     cursor: pointer;
-    color: white;
 
     span {
         font-size: 30px;

@@ -87,7 +87,6 @@ const SignUp = styled.a`
 `
 
 const Description = styled.p`
-    color: white;
     letter-spacing: 1.5px;
     font-size: 11px;
     text-align: center;
