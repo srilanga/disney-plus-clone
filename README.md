@@ -8,6 +8,9 @@
 > npm install react-slick --save
 > npm install slick-carousel --save
 - 사용 라이브러리: react-slick (이미지슬라이더)
+> npm install react-router-dom --save
+- 사용 라이브러리: react router dom
+ - v6로 업그레이드 되면서 변경된 내용: Switch->Routes, component->element (참고: https://reactrouter.com/docs/en/v6/upgrading/v5)
 
 # Getting Started with Create React App and Redux
 

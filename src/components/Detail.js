@@ -11,7 +11,8 @@ function Detail() {
             <img src="/images/detail-soul-title.png" />
         </ImageTitle>
         <SubTitle>
-            2020 • 1시간 40분 가족, 코미디, 판타지, 애니메이션, 음악
+            <p>2020 • 1시간 40분</p>
+            <p>가족, 코미디, 판타지, 애니메이션, 음악</p>
         </SubTitle>
         <Controls>
             <PlayButton>
@@ -65,7 +66,9 @@ const ImageTitle = styled.div`
     min-height: 170px;
     width: 35vw;
     min-width: 200px;
-    
+    max-width: 341px;
+    margin-top: 60px;
+
     img { 
         width: 100%;
         height: 100%;
@@ -126,8 +129,13 @@ const SubTitle = styled.div`
     color: #f9f9f9;
     font-size: 13px;
     min-height: 20px;
-    margin-top: 5px;
+    margin: 0px 0px 16px 0px;
     //box-sizing: border-box;
+
+    p {
+        text-decoration: none;
+        margin: 0;
+    }
 `
 
 const Description = styled.div`
@@ -135,4 +143,5 @@ const Description = styled.div`
     line-height: 1.6;
     font-size: 18px;
     margin-top: 16px; //padding-top: 1rem;
+    max-width: 7600px;
 `
