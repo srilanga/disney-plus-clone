@@ -1,3 +1,14 @@
+# Project Init
+> npx create-react-app --template redux
+> npm start
+> npm install styled-components
+
+- styled component로 컴포넌트 내의 태그에 대해 CSS 설정 가능
+
+> npm install react-slick --save
+> npm install slick-carousel --save
+- 사용 라이브러리: react-slick (이미지슬라이더)
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
