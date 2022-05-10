@@ -12,6 +12,9 @@
 - 사용 라이브러리: react router dom
  - v6로 업그레이드 되면서 변경된 내용: Switch->Routes, component->element (참고: https://reactrouter.com/docs/en/v6/upgrading/v5)
 
+> npm install firebase
+> npm install firebase-tools
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.

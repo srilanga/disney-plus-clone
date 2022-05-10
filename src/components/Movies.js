@@ -47,7 +47,7 @@ const Container = styled.div`
 const Content = styled.div`
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repenpm install at(4, minmax(0, 1fr));
 `
 
 const Wrap = styled.div`
