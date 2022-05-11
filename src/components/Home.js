@@ -4,14 +4,19 @@ import ImgSlider from './ImgSlider'
 import Viewers from './Viewers'
 import Movies from './Movies'
 import db from '../firebase' 
+//import { collection, getDocs, query, onSnapshot } from "firebase/firestore";
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 function Home() {
 
   // whenever page loaded
   useEffect(()=>{
-    //db.collection("movies").onSnapshot((snapshot)=>{
-    //  console.log(snapshot);
-    //})
+    // TODO: RestConnection RunQuery failed with error:  {"code":"permission-denied","name":"FirebaseError"}
+    // https://youtu.be/0mVbNp1ol_w?t=21014
+    // firebase.js에서 auth 설정까지 해야할듯
+    const citiesCol = collection(db, 'movies');
+    const citySnapshot = getDocs(citiesCol);
+    //const cityList = citySnapshot.docs.map(doc => doc.data());
   }, [])
 
   return (
